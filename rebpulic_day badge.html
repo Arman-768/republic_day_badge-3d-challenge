@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge</title>
+    <style>
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+.flag {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative; 
+}
+
+.flag div {
+    height: 100px;
+    width: 100%;
+}
+
+.orange {
+    background: orange;
+}
+
+.green {
+    background: green;
+}
+
+.ashoka {
+    position: absolute;
+    top: 51.5%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+img {
+    height: 143px;
+    width: auto; 
+    max-width: 100%; 
+    z-index: 1;
+}
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="orange"></div>
+        <div class="white"></div>
+        <div class="green"></div>
+        
+    </div>
+    <div class="ashoka">
+    <img src="ashoka.png" alt="66">
+</div>
+    
+</body>
+</html>
